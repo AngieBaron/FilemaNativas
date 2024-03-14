@@ -1,8 +1,9 @@
-pluginManagement {
+ pluginManagement {
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven(url="https://jitpack.io" )// Librerias
     }
 }
 dependencyResolutionManagement {
@@ -10,9 +11,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven(url="https://jitpack.io" )//Librerias
     }
 }
 
-rootProject.name = "AppCitas"
-include(":app")
- 
+    rootProject.name = "AppCitas"
+    include(":app")

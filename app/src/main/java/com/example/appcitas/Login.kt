@@ -39,7 +39,7 @@ class Login : AppCompatActivity() {
             override fun onClick(v: View?) {
                 val TxtEmail = findViewById<TextView>(R.id.TxtIngresarEmail)
                 val txtContrasena=findViewById<TextView>(R.id.TxtIngresarContraseña)
-                if (TxtEmail.text.toString()=="usuario@gmail.com" && txtContrasena.text.toString()=="123456"  ){
+                if (TxtEmail.text.toString()=="" && txtContrasena.text.toString()==""  ){
                     val intent = Intent(applicationContext,Match::class.java)
                     startActivity(intent)
                 }
