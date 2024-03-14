@@ -22,23 +22,27 @@ class NotificacionesFragment : Fragment() {
 
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_notificacion, container, false)
-        // Andres debe comentar esto
+        // se usa para obtener una referencia al botón con el ID
         val buttonc = view.findViewById<Button>(R.id.login_btn_prueba)
         buttonc.setOnClickListener {
-            navigateLogin()
+            //cuando se le da click al boton llama al metodo navegar
+            navigateConfig()
         }
 
         return view
 
     }
 
-    //Andres debe comentar esto
-    private fun navigateLogin(){
-        val activity = requireActivity()
-        val fragmentManager = activity.supportFragmentManager
+    private fun navigateConfig(){
+        val activity = requireActivity() //Esta línea obtiene una referencia a la actividad que contiene este fragmento
+        val fragmentManager = activity.supportFragmentManager // es responsable de administrar los fragmentos dentro de una actividad.
+        //Aquí se inicia una nueva transacción de fragmentos. es decir agregar, reemplazar o quitar fragmentos, esto se realizan dentro de una transacción.
         val fragmentTransaction =fragmentManager.beginTransaction()
+        //Se reemplaza el fragmento por el ID del otro fragmento
         fragmentTransaction.replace(R.id.fragmentContainer,ConfiguracionFragment())
+        //Esta línea permite al usuario retroceder a la transacción anterior al retroceder desde el dispositivo
         fragmentTransaction.addToBackStack(null)
+        //se confirma la transacción, lo que efectivamente aplica todos los cambios realizados en la transacción de fragmentos
         fragmentTransaction.commit()
     }
 
