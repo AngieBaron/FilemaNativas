@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+
+    <ImageView
+        android:id="@+id/Img_Encabezado_Match"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_marginTop="-46sp"
+
+        android:src="@mipmap/encabezado" />
+
+    <TextView
+        android:id="@+id/Txt_Titulo_Match"
+        android:layout_width="292dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="25dp"
+        android:text="¿Que match quieres
+        hacer?"
+        android:layout_marginStart="14dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/Img_Logo_Match"
+        android:layout_width="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/logo" />
+
+    <ImageButton
+        android:id="@+id/Btn_Amistad"
+        android:layout_width="337dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#00FFFFFF"
+        android:paddingLeft="75dp"
+        android:src="@mipmap/bola_degradado_match" />
+
+    <TextView
+        android:id="@+id/Txt_Amistad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amistad"
+        android:textColor="@color/white"
+        android:fontFamily="@font/letra_titulo"
+        android:textSize="110dp"
+        android:paddingLeft="138dp"
+        android:layout_marginTop="240dp"
+        />
+
+    <ImageButton
+        android:id="@+id/Btn_Relacion"
+        android:layout_width="337dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="450dp"
+        android:paddingLeft="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@mipmap/bola_degradado_match" />
+    <TextView
+        android:id="@+id/Txt_Relacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relación"
+        android:textColor="@color/white"
+        android:fontFamily="@font/letra_titulo"
+        android:textSize="100dp"
+        android:paddingLeft="133dp"
+        android:layout_marginTop="550dp"
+        />
+
+    <ImageView
+        android:id="@+id/Img_linea2_match"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:src="@mipmap/linea_degradada"
+        />
+    <ImageView
+        android:id="@+id/Img_linea_match"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="425dp"
+        android:src="@mipmap/linea_degradada"
+        />
+
+    <TextView
+        android:id="@+id/Txt_0_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/letra_titulo"
+        android:layout_marginTop="410dp"
+        android:text="0"
+        android:paddingLeft="197dp"
+        android:textSize="70dp"
+        />
+
+
+</FrameLayout>

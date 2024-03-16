@@ -16,7 +16,7 @@ class ConfiguracionFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         //Trae la vista que esta en el layout
-        return inflater.inflate(R.layout.activity_match, container, false)
+        return inflater.inflate(R.layout.fragment_settings, container, false)
 
 
     }
