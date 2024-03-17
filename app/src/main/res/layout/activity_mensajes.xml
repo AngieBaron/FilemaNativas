@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Mensajes">
+
+    <!-- Header-->
+    <View
+        android:id="@+id/cuadrosuperior"
+        android:layout_width="413dp"
+        android:layout_height="125dp"
+        android:background="@drawable/background_degradado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgRecibe"
+        android:layout_width="137dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:src="@mipmap/woman_mensajes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameMsm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Mensajes"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="@+id/cuadrosuperior"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Fondo blanco pora los bordes -->
+    <View
+        android:id="@+id/vista"
+        android:layout_width="412dp"
+        android:layout_height="650dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/fondo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Botones parte superior -->
+    <Button
+        android:id="@+id/btnMsmRelaciones"
+        android:layout_width="120dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/btn_todos"
+        android:text="Relaciones"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMsmAmistad"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/btn_todos"
+        android:text="Amigos"
+        android:textColor="#090808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnMsmTodo"
+        android:layout_width="87dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/btn_todos"
+        android:text="Todo"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toStartOf="@+id/btnMsmAmistad"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Body  -->
+    <ImageView
+        android:id="@+id/imgRecibe1"
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:padding="10dp"
+        android:src="@mipmap/woman_perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/recuadrotextsend"
+        android:layout_width="247dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/bordemensaje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgRecibe2"
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="304dp"
+        android:padding="10dp"
+        android:src="@mipmap/woman_perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/recuadrotextsend2"
+        android:layout_width="247dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/bordemensaje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgRecibe3"
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="428dp"
+        android:padding="10dp"
+        android:src="@mipmap/woman_perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/recuadrotextsend3"
+        android:layout_width="247dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="444dp"
+        android:background="@drawable/bordemensaje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgRecibe4"
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="540dp"
+        android:padding="10dp"
+        android:src="@mipmap/woman_perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/recuadrotextsend4"
+        android:layout_width="247dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/bordemensaje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Footer -->
+    <View
+        android:id="@+id/cuadroinferior"
+        android:layout_width="419dp"
+        android:layout_height="85dp"
+        android:background="@drawable/background_degradado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Iconos de la parte final de la página -->
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="61dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="8dp"
+        android:background="@mipmap/relation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="@+id/cuadroinferior" />
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="67dp"
+        android:layout_height="62dp"
+        android:background="@mipmap/mensaje"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="@+id/cuadroinferior"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="12dp"
+        android:background="@mipmap/perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="@+id/cuadroinferior" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
