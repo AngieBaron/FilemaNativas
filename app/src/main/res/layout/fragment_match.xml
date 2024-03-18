@@ -110,6 +110,4 @@
         android:textColor="@color/white"
         android:textSize="110dp" />
 
-
-
 </FrameLayout>
