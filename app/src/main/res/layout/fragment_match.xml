@@ -46,6 +46,7 @@
         android:layout_marginTop="480dp"
         android:backgroundTint="#00FFFFFF"
         android:src="@drawable/redondeobotonesmatch"
+        android:contentDescription="null"
         />
     <TextView
         android:id="@+id/Txt_Relacion"
@@ -94,8 +95,9 @@
         android:layout_marginLeft="75dp"
         android:layout_marginTop="170dp"
         android:backgroundTint="#00FFFFFF"
-        android:src="@mipmap/bola_degradado_match"
-        android:textAlignment="textEnd" />
+        android:src="@drawable/redondeobotonesmatch"
+        android:textAlignment="textEnd"
+        android:contentDescription="null"/>
 
     <TextView
         android:id="@+id/Txt_Amistad"
