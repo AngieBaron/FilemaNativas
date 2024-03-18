@@ -17,7 +17,10 @@ class HomeFragment : Fragment() {
     ): View? {
 
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_home, container, false)
+
+        return inflater.inflate(R.layout.fragment_match, container, false)
+
+        val view = inflater.inflate(R.layout.fragment_match, container, false)
         // se usa para obtener una referencia al botón con el ID
         val buttonc = view.findViewById<ImageButton>(R.id.Btn_Amistad)
         buttonc.setOnClickListener {
@@ -39,6 +42,7 @@ class HomeFragment : Fragment() {
         fragmentTransaction.addToBackStack(null)
         //se confirma la transacción, lo que efectivamente aplica todos los cambios realizados en la transacción de fragmentos
         fragmentTransaction.commit()
+
     }
 
 }

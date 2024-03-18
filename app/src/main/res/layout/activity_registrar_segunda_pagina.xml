@@ -32,156 +32,151 @@
         app:srcCompat="@mipmap/logo" />
 
 
-    <EditText
-        android:id="@+id/DigitarNumeroRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="17"
-        android:hint="DD/MM/AAAA"
-        android:inputType="datetime"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.287"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/LogoRegistrar"
-        app:layout_constraintVertical_bias="0.473" />
-
-    <EditText
-        android:id="@+id/DigitarFechaRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="17"
-        android:hint="319-854-7254"
-        android:inputType="number"
-        android:textSize="16dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.287"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.595" />
-
     <TextView
         android:id="@+id/TituloNCelularRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fecha de nacimiento"
-        android:textSize="19dp"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.388" />
 
     <TextView
         android:id="@+id/TituloIngreseEmailRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ubicacion"
-        android:textSize="19dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
-
-    <EditText
-        android:id="@+id/DigitarEmailRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="17"
-        android:hint="usuario@gmail.com"
-        android:inputType="text"
         android:textSize="18dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.358" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <TextView
         android:id="@+id/TxtValidarContraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Numero de celular"
-        android:textSize="19dp"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/LogoRegistrar"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.526" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿donde quieres aparecer"
+        android:text="¿donde quieres aparecer?"
         android:textSize="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
-
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="147dp"
-        android:layout_height="61dp"
-        android:backgroundTint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.768"
-        app:srcCompat="@mipmap/elegir_boton_amistad" />
+        app:layout_constraintVertical_bias="0.677" />
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="138dp"
-        android:layout_height="62dp"
+        android:layout_width="147dp"
+        android:layout_height="72dp"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.769"
+        app:layout_constraintVertical_bias="0.793"
         app:srcCompat="@mipmap/boton_elegir_relacion" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="127dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        app:srcCompat="@mipmap/boton_elegir_amitad" />
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:layout_width="127dp"
-        android:layout_height="60dp"
+        android:layout_width="125dp"
+        android:layout_height="71dp"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77"
+        app:layout_constraintVertical_bias="0.794"
         app:srcCompat="@mipmap/boton_elegir_ambos" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/btnRegistrarme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
+        app:layout_constraintVertical_bias="0.971"
         app:srcCompat="@mipmap/boton_registrar" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:drawableStart="@drawable/baseline_public_24"
+        android:drawablePadding="12dp"
+        android:hint="Bogota"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:drawableStart="@drawable/baseline_cake_24"
+        android:drawablePadding="12dp"
+        android:hint="DD/MM/AAAA"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:drawableStart="@drawable/baseline_call_24"
+        android:drawablePadding="12dp"
+        android:hint="319-687-5412"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
