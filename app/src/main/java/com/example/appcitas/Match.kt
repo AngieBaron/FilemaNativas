@@ -24,7 +24,7 @@ class Match : AppCompatActivity() {
             CurvedBottomNavigation.Model(1,"Notificacion",R.drawable.baseline_people_alt_24)
         )
         bottomNavigation.add(
-            CurvedBottomNavigation.Model(2,"home",R.drawable.baseline_person_24)
+            CurvedBottomNavigation.Model(2,"home",R.drawable.icono_usuario_registrar)
         )
         bottomNavigation.add(
             CurvedBottomNavigation.Model(3,"Configuracion",R.drawable.baseline_comment_24)
