@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.MatchAmistad">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#6B70F9"
+            ></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ViewUsers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/Header"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
