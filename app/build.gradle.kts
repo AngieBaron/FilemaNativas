@@ -36,6 +36,9 @@ android {
     buildFeatures{
         dataBinding = true
     }
+    viewBinding{
+        enable= true
+    }
 }
 
 dependencies {
@@ -46,6 +49,8 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.github.qamarelsafadi:CurvedBottomNavigation:0.1.3")//Libreria para Navbar
     implementation("androidx.fragment:fragment-ktx:1.6.2")//proporciona extensiones de Kotlin para trabajar con los fragmentos de Android.
+    implementation ("com.github.bumptech.glide:glide:4.16.0")//implementacion imagenes desde el codigo
+    implementation("androidx.recyclerview:recyclerview:1.3.2")//implementacion para reciclar las vistas
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
