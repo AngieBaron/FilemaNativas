@@ -89,7 +89,7 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/Btn_Amistad"
         android:layout_width="241dp"
         android:layout_height="240dp"
         android:layout_marginLeft="75dp"
@@ -109,5 +109,4 @@
         android:text="Amistad"
         android:textColor="@color/white"
         android:textSize="110dp" />
-
 </FrameLayout>
