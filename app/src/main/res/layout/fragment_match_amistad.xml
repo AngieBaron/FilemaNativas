@@ -15,7 +15,7 @@
             android:id="@+id/Header"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:background="#6B70F9"
+            android:background="#7F6EF1"
             ></TextView>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -25,6 +25,24 @@
             android:layout_below="@+id/Header"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/letra_titulo"
+            android:paddingLeft="148dp"
+            android:text="Amistad"
+            android:layout_marginTop="-6dp"
+            android:textColor="@color/white"
+            android:textSize="100dp" />
 
 
     </RelativeLayout>

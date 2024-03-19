@@ -47,10 +47,10 @@
                 />
             <ImageView
                 android:id="@+id/corazon"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_gravity="bottom|right"
-                android:background="@drawable/baseline_person_24"/>
+                android:background="@drawable/baseline_volunteer_activism_24"/>
         </LinearLayout>
     </RelativeLayout>
 </FrameLayout>

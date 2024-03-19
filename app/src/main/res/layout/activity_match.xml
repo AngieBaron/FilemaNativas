@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#E43C3C"
-        app:cbn_background="#EA67CC"
+        app:cbn_background="#DABD6BDC"
         app:cbn_curve_radius="40dp"
         app:cbn_fabColor="#B86BDE"
         app:cbn_height="80dp"
