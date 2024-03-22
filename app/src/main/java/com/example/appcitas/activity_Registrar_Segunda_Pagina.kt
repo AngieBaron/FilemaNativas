@@ -19,6 +19,14 @@ class activity_Registrar_Segunda_Pagina : AppCompatActivity() {
             }
 
         })
+        val BtnAtras = findViewById<ImageButton>(R.id.btnDevolverRegistro2)
+        BtnAtras.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                val intent = Intent(applicationContext, ActivityRegistrar::class.java)
+                startActivity(intent)
+            }
+
+        })
     }
 
 }

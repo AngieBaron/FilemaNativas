@@ -22,7 +22,7 @@
         app:cbn_background="#DABD6BDC"
         app:cbn_curve_radius="40dp"
         app:cbn_fabColor="#B86BDE"
-        app:cbn_height="80dp"
+        app:cbn_height="85dp"
         app:cbn_iconColor="@color/white"
         app:cbn_icon_size="40dp"
         app:cbn_selectedIconColor="@color/white"

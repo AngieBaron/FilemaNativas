@@ -20,5 +20,13 @@ class ActivityRegistrar : AppCompatActivity() {
             }
 
         })
+        val BtnAtras = findViewById<ImageButton>(R.id.btnDevolver)
+        BtnAtras.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(v: View?) {
+                val intent = Intent(applicationContext,Login::class.java)
+                startActivity(intent)
+            }
+
+        })
     }
 }

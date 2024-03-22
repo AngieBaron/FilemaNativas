@@ -21,13 +21,13 @@ class Match : AppCompatActivity() {
         // Le asigna un Id a cada codigo para despues llamar el boton con su icono
         val bottomNavigation = findViewById<CurvedBottomNavigation>(R.id.bottomNavigation)
         bottomNavigation.add(
-            CurvedBottomNavigation.Model(1,"Notificacion",R.drawable.baseline_people_alt_24)
+            CurvedBottomNavigation.Model(1,"Match",R.drawable.match)
         )
         bottomNavigation.add(
-            CurvedBottomNavigation.Model(2,"home",R.drawable.icono_usuario_registrar)
+            CurvedBottomNavigation.Model(2,"Mensajes",R.drawable.baseline_mark_unread_chat_alt_24)
         )
         bottomNavigation.add(
-            CurvedBottomNavigation.Model(3,"Configuracion",R.drawable.baseline_comment_24)
+            CurvedBottomNavigation.Model(3,"Perfil",R.drawable.icono_usuario_registrar)
         )
 
         bottomNavigation.setOnClickMenuListener{
@@ -35,10 +35,10 @@ class Match : AppCompatActivity() {
                 //llama la actividad NotificacionesFragment donde llama  la vista
                 //fragment_notificacion y el numero del id que asignamos anteriormente
                 1 -> {
-                    replaceFragment(NotificacionesFragment())
+                    replaceFragment(HomeFragment())
                 }
                 2 -> {
-                    replaceFragment(HomeFragment())
+                    replaceFragment(NotificacionesFragment())
                 }
                 3 -> {
                     replaceFragment(ConfiguracionFragment())
@@ -50,7 +50,7 @@ class Match : AppCompatActivity() {
         // Esta linea de codigo sirve para escoger en donde aparecera el boton que
         // en este caso aparecera en el circulito 2 que es home
         replaceFragment(HomeFragment())
-        bottomNavigation.show(2 )
+        bottomNavigation.show(1  )
     }
         // Funcion que sirve para reemplazar el fragmento por otro y asi reutilizar conponentes
     private fun replaceFragment(fragment: Fragment) {
