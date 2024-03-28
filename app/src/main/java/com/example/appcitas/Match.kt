@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 
 import com.example.appcitas.fragment.ConfiguracionFragment
 import com.example.appcitas.fragment.HomeFragment
+import com.example.appcitas.fragment.MensajesFragment
 import com.example.appcitas.fragment.NotificacionesFragment
 import com.qamar.curvedbottomnaviagtion.CurvedBottomNavigation
 
@@ -38,7 +39,7 @@ class Match : AppCompatActivity() {
                     replaceFragment(HomeFragment())
                 }
                 2 -> {
-                    replaceFragment(NotificacionesFragment())
+                    replaceFragment(MensajesFragment())
                 }
                 3 -> {
                     replaceFragment(ConfiguracionFragment())

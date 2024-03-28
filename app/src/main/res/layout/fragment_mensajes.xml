@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MensajesFragment">
+
+    <!-- Header-->
+    <View
+        android:id="@+id/cuadrosuperior"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/background_degradado"
+        />
+
+        <!-- Botón volver -->
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/baseline_navigate_before_24"
+        />
+        <!-- Titulo de la pantalla -->
+    <TextView
+        android:id="@+id/namerecibe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="150dp"
+        android:text="Mensajes"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        />
+
+    <!-- Fondo -->
+    <View
+        android:id="@+id/viewfondo1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/fondo"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Botones parte superior -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="100dp">
+        <!-- Botón Relación -->
+        <ImageButton
+            android:id="@+id/btnMsmRelaciones"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="140dp"
+            android:src="@mipmap/boton_elegir_relacion"
+            />
+            <!-- Botón Amistad -->
+        <ImageButton
+            android:id="@+id/btnMsmAmistad"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/boton_elegir_amitad"
+            />
+            <!-- Botón de ambos -->
+        <ImageButton
+            android:id="@+id/btnMsmTodo"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="270dp"
+            android:src="@mipmap/boton_elegir_ambos"
+            />
+
+    </RelativeLayout>
+
+        <!-- Botón que envia a la pantalla del chat -->
+    <Button
+        android:id="@+id/EnvioChat"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        android:text="Chat"
+        android:textColor="@color/white"/>
+
+</FrameLayout>
